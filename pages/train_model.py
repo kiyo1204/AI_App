@@ -197,12 +197,12 @@ st.title("モデル作成ページ")
 if st.session_state["login"]:
     with st.sidebar:
         st.header("スライドパラメータ")
-        st.write(f"ウィンドウサイズ : {st.session_state["window_size"]}")
-        st.write(f"ストライド : {st.session_state["stride"]}")
+        st.write(f'ウィンドウサイズ : {st.session_state["window_size"]}')
+        st.write(f'ストライド : {st.session_state["stride"]}')
 
         st.header("ランダムフォレストパラメータ")
-        st.write(f"木の数(n_estimators) : {st.session_state["n_estimators"]}")
-        st.write(f"最大深さ(max_depth) : {st.session_state["max_depth"]}")
+        st.write(f'木の数(n_estimators) : {st.session_state["n_estimators"]}')
+        st.write(f'最大深さ(max_depth) : {st.session_state["max_depth"]}')
 
     st.subheader("学習用Excel（train_data.xlsx）をアップロード")
     model_file = st.file_uploader("列: time, ax, ay, az, wx, wy, wz, class, detail（detailは任意）", type=["xlsx"])
