@@ -1,0 +1,9 @@
+streamlit == 1.51.0
+pandas == 2.3.0
+matplotlib == 3.10.1w
+scikit-learn == 1.7.2
+scipy == 1.16.2
+yagmail == 0.15.293
+SQLAlchemy == 2.0.36
+streamlit-pdf == 2.0.1
+numpy == 2.1.3
