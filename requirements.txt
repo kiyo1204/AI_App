@@ -1,6 +1,6 @@
 streamlit == 1.51.0
 pandas == 2.3.0
-matplotlib == 3.10.1w
+matplotlib == 3.10.1
 scikit-learn == 1.7.2
 scipy == 1.16.2
 yagmail == 0.15.293
